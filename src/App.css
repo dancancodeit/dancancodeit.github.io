@@ -1,0 +1,17 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+}
+
+.particles-canvas {
+  z-index: -999999;
+  position: absolute;
+  height: 0;
+
+}
+
+.particles {
+  z-index: -9999;
+  width: 5;;
+}

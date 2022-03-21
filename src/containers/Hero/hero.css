@@ -1,0 +1,40 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    height: 100%;
+    z-index: 5;
+    position: relative;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.social-item { 
+    margin-right: 10px;
+}
