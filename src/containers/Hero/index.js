@@ -5,22 +5,20 @@ import me from '../../resources/me.svg'
 function Hero(props) {
 	return <div>
     <div className="socials">
-      <a className="social-item">Twitter</a>
-      <a className="social-item">TikTok</a>
-      <a className="social-item">Instagram</a>
+      <a href="https://twitter.com/dancancodeit" className="social-item link">Twitter</a>
+      <a href="https://www.tiktok.com/@codingproblems" className="social-item link">TikTok</a>
+      <a href="https://www.instagram.com/dancancodeit/" className="social-item link">Instagram</a>
     </div>
 		<div class="hero-container">
-      <div class="name">
-        <a>Daniel Miller</a>
+      <div class="name-container">
+        <span>Daniel Miller</span>
       </div>
-      <div>
-        <img src={me} alt="me"/>
-      </div>
+        <img class="me-pic" src={me} alt="me"/>
       <div class="nav">
-        <a>Blog</a>
-        <a>Github</a>
-        <a>Youtube</a>
-        <a>Contact</a>
+        <a className="link" href="https://medium.com/@dancancodeit">Blog</a>
+        <a className="link" href="https://github.com/dancancodeit">Github</a>
+        <a className="link" href="https://www.youtube.com/channel/UCsymgNWEdy7qQuVz3jGOAbA">Youtube</a>
+        <a className="link" href="mailto:hello@dancancodeit.com">Contact</a>
       </div>
 		</div>
 

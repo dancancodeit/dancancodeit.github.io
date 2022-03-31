@@ -2,18 +2,12 @@
     display: flex;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    height: 100%;
+    height: 100vh;
     z-index: 5;
     position: relative;
 }
 
-.quote {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-.name {
+.name-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,3 +32,46 @@
 .social-item { 
     margin-right: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.link {
+    font-size: 75%;
+    margin-bottom: 2%;
+}
+
+
+.me-pic {
+    /* width: 80%; */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .me-pic {
+        width: 50%;
+    }
+    .name-container {
+        width: 10%;
+    }
+    .link {
+        margin-bottom: 10px;
+        font-size: 90%;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
