@@ -1,10 +1,10 @@
 .hero-container {
     display: flex;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    height: 100vh;
     z-index: 5;
     position: relative;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .name-container {
@@ -12,25 +12,32 @@
     flex-direction: column;
     justify-content: center;
 }
-
-.nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.main-text {
+    margin: 0;
+    font-size: 250%;  
+}
+.sub-text {
+    font-size: 90%;  
 }
 
 .quote {
     text-align: center;
 }
 
+.ham { display: none;}
+
 .socials {
     display: flex;
     position: relative;
     justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+    padding-right: 30px;
+    padding-bottom: 50px;
 }
 
 .social-item { 
-    margin-right: 10px;
+    margin-right: 13px;
 }
 
 a {
@@ -38,28 +45,38 @@ a {
     color: white;
 }
 
-body {
-    font-family: Roboto;
-}
 
 .link {
-    font-size: 75%;
-    margin-bottom: 2%;
+    font-size: 120%;
 }
 
 
 .me-pic {
-    /* width: 80%; */
+    width: 500px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .ham { 
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+        padding-right: 30px;
+     }
+
+    .socials {
+        display: none;
+    }
+
+    .hero-container {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
     .me-pic {
-        width: 50%;
+        /* width: 120%; */
     }
-    .name-container {
-        width: 10%;
-    }
+
     .link {
         margin-bottom: 10px;
         font-size: 90%;
