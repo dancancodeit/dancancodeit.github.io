@@ -1,4 +1,4 @@
-body {
+body,html {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -7,10 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: white;
   width: 100%;
+  padding: 0;
+  overflow-x: hidden;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
