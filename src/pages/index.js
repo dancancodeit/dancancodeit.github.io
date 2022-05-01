@@ -32,7 +32,7 @@ function Hero(props) {
         <h2 className="main-text">Hello, I'm Daniel Miller</h2>
         <h5 className="sub-text">Despite this awesome looking website, my passion lies in building highly scalable distributed systems (getting this website to look like this took way too long)</h5> 
       </div>
-      <img className="me-pic" src="/rocket-me.svg" alt="me"/>
+      <img className="me-pic" src="/rocket-me.png" alt="me"/>
 		</div>
 
 	</div>
