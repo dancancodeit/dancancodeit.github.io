@@ -3,11 +3,9 @@ import React, { useState } from "react"
 
 
 function Hero(props) {
-  const [ isOpen, setOpen ] = useState(true);
-  const toggleMenu = () =>  {
-    console.log('im here');
-    setOpen(!isOpen);
-  }
+  const [ isOpen, setOpen ] = useState(false);
+  const toggleMenu = () => setOpen(!isOpen);
+
   const fadeStyle = { 'opacity': isOpen ? 1 : 0}
 
 	return <div className="container">
