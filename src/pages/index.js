@@ -3,8 +3,11 @@ import React, { useState } from "react"
 
 
 function Hero(props) {
-  const [ isOpen, setOpen ] = useState(false);
-  const toggleMenu = () => setOpen(!isOpen);
+  const [ isOpen, setOpen ] = useState(true);
+  const toggleMenu = () =>  {
+    console.log('im here');
+    setOpen(!isOpen);
+  }
   const fadeStyle = { 'opacity': isOpen ? 1 : 0}
 
 	return <div className="container">
@@ -14,7 +17,7 @@ function Hero(props) {
       <a href="https://twitter.com/dancancodeit" className="social-item link">Twitter</a>
       <a className="social-item link" href="https://www.youtube.com/channel/UCsymgNWEdy7qQuVz3jGOAbA">Youtube</a>
       <a href="https://www.instagram.com/dancancodeit/" className="social-item link">Instagram</a>
-      <a href="https://www.tiktok.com/@codingproblems" className="social-item link">TikTok</a>
+      <a href="https:/p/www.tiktok.com/@codingproblems" className="social-item link">TikTok</a>
       <a className="social-item link" href="mailto:hello@dancancodeit.com">Contact</a>
     </div>
     <div className="ham" onClick={toggleMenu}><h2>≡</h2></div>
