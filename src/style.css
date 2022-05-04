@@ -57,7 +57,6 @@ a {
 
 #mobile-drop {
     display: none;
-    pointer-events: none;
 }
 
 
@@ -84,7 +83,6 @@ a {
         transition: all .1s ease-in-out;
         top: 0;
         padding-top: 50px;
-        pointer-events: none;
     }
     .mobile-link {
         text-align: center;
