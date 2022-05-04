@@ -25,7 +25,7 @@ function Hero(props) {
       <a href="https://twitter.com/dancancodeit" className="mobile-link">Twitter</a>
       <a href="https://www.youtube.com/channel/UCsymgNWEdy7qQuVz3jGOAbA" className="mobile-link">Youtube</a>
       <a href="https://www.instagram.com/dancancodeit/" className="mobile-link">Instagram</a>
-      <a href="https://swww.tiktok.com/@codingproblems" className="mobile-link">TikTok</a>
+      <a href="https://www.tiktok.com/@codingproblems" className="mobile-link">TikTok</a>
       <a href="mailto:hello@dancancodeit.com" className="mobile-link">Contact</a>
     </div>
 		<div className="hero-container">
