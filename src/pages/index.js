@@ -6,7 +6,10 @@ function Hero(props) {
   const [ isOpen, setOpen ] = useState(false);
   const toggleMenu = () => setOpen(!isOpen);
 
-  const fadeStyle = { 'opacity': isOpen ? 1 : 0}
+  const fadeStyle = { 
+    'opacity': isOpen ? 1 : 0,
+    'display': isOpen ? 'flex' : 'none'
+  }
 
 	return <div className="container">
     <div className="socials">
@@ -31,7 +34,7 @@ function Hero(props) {
 		<div className="hero-container">
       <div className="name-container">
         <h2 className="main-text">Hello, I'm Daniel Miller</h2>
-        <h5 className="sub-text">Despite this awesome looking website, my passion lies in building highly scalable distributed systems (getting this website to look like this took way too long)</h5> 
+        <h5 className="sub-text">Despite this awesome looking website, my passion lies in building scalable distributed systems (getting this website to look like this took way too long)</h5> 
       </div>
       <img className="me-pic" src="/rocket-me.png" alt="me"/>
 		</div>
