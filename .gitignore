@@ -25,5 +25,5 @@ yarn-error.log*
 .next
 # /out
 
-# _next
+_next
 .vscode
