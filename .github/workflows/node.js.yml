@@ -22,9 +22,18 @@ jobs:
         run: |
           npm install
 
-      - name: build and deploy
+      - name: build
         run : |    
-          npm run export
+          next build
           touch out/.nojekyll
+          
+
+      - name: export
+        run: |
+          next export
+
+      - name: deploy
+        run: |
           git subtree split --branch gh-pages --prefix out/
           git push origin gh-pages
+           
