@@ -34,6 +34,7 @@ jobs:
       - name: deploy
         run: |
           ls
+          git add out
           git subtree split --branch gh-pages --prefix out
           git push origin gh-pages
            
