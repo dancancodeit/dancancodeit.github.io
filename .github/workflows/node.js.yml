@@ -33,8 +33,6 @@ jobs:
 
       - name: deploy
         run: |
-          ls
-          git add out
           git subtree split --branch gh-pages -P ./out
           git push origin gh-pages
            
