@@ -24,13 +24,12 @@ jobs:
 
       - name: build
         run : |    
-          next build
+          npm run build
           touch out/.nojekyll
           
-
       - name: export
         run: |
-          next export
+          npm run export
 
       - name: deploy
         run: |
