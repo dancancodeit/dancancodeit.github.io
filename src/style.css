@@ -51,11 +51,6 @@ a {
     font-size: 120%;
 }
 
-
-.me-pic {
-    /* width: 1000px; */
-}
-
 #mobile-drop {
     display: none;
 }
@@ -81,7 +76,7 @@ a {
         width: 99%;
         height: 99%;
         background-color: rgba(0, 0, 0, 0.8);
-        transition: all .1s ease-in-out;
+        transition: all .2s ease-in-out;
         top: 0;
         padding-top: 50px;
         align-items: center;
