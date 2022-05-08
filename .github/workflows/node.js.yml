@@ -35,6 +35,6 @@ jobs:
         run: |
           ls
           git add out
-          git subtree split --branch gh-pages --prefix *
+          git subtree split --branch gh-pages 
           git push origin gh-pages
            
