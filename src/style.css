@@ -51,10 +51,6 @@ a {
     font-size: 120%;
 }
 
-#mobile-drop {
-    display: none;
-}
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -80,6 +76,7 @@ a {
         top: 0;
         padding-top: 50px;
         align-items: center;
+        pointer-events: auto;
     }
     .mobile-link {
         text-align: center;
@@ -100,6 +97,7 @@ a {
     }
     .me-pic {
         width: 90%;
+        z-index: 0;
     }
 
     .name-container {

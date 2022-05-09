@@ -22,8 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# .next
-# /out
+.next
+/out
 
-# _next
+_next
 .vscode

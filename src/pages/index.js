@@ -8,7 +8,7 @@ function Hero(props) {
 
   const fadeStyle = { 
     'opacity': isOpen ? 1 : 0,
-    'pointerEvents': isOpen ? 'default' : 'none'
+    'pointerEvents': isOpen ? 'auto' : 'none'
   }
 
 	return <div className="container">
