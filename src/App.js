@@ -11,8 +11,6 @@ function App() {
       <header className="App-header">
         <Particles options={config} canvasClassName="particles-canvas" className='particles' style={{zIndex: '-1'}}/>
         <Hero/>
-        {/* <Blog/> */}
-        {/* <Youtube/> */}
       </header>
     </div>
   );
